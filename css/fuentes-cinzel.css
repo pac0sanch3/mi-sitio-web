@@ -3,7 +3,7 @@
     padding: 0;
 }
 div{
-    background-color: rgb(19, 18, 18);
+    background-color: rgb(44, 42, 42);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ div{
 span{
     font-family: 'Cinzel';
     font-size: 13em;
-    color: rgb(48, 165, 223);
+    color: rgb(255, 255, 255);
 }
 /* cinzel-regular - latin */
 @font-face {
