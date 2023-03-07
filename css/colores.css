@@ -1,0 +1,33 @@
+.box-colores{
+    display: flex;
+    flex-direction: row;
+}
+span{
+    color: white;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-color{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-red{
+    background-color: blue;
+}
+
+.color-blue{
+    background-color: rgb(255, 0, 0);
+}
+.color-golden{
+    background-color: #FFD700 ;
+}
+.color-255-0-0{
+    background-color: rgb(255, 0, 0);
+}
+.colorFFD700{
+    background-color: #FFD700;
+}
