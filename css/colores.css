@@ -18,15 +18,23 @@ span{
 .color-red{
     background-color: blue;
 }
-
 .color-blue{
-    background-color: rgb(255, 0, 0);
+    background-color:red;
 }
 .color-golden{
-    background-color: #FFD700 ;
+    background-color: goldenrod;
 }
 .color-255-0-0{
     background-color: rgb(255, 0, 0);
+}
+.color-0-0-255{
+    background-color: rgb(0, 0, 255);
+}
+.color-239-184-16{
+    background-color: rgb(239, 184, 16);
+}
+.colorFF0000{
+    background-color: #FF0000;
 }
 .colorFFD700{
     background-color: #FFD700;
