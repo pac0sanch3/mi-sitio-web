@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formularios.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-box">
+        <form method="get">
+            <div class="form-title">
+                <span class="text-title">OFICINA VIRTUAL</span>
+            </div>
+            <div class="form-box">
+                <label class="ini-sec">Inicio Sesión</label>
+                <label>Ingrese el tipo de ducumento</label>
+                <select name="Tipo de Identificacion">
+                <option value="CC">Cédula de Ciudadanía</option>
+                <option value="TI">Tarjeta de Identidad</option>
+                <option value="RC">Registro Civil</option>
+                <option value="CE">Cédula de Extranjería</option>
+                </select>
+                <label>Ingrese su numero de documento</label>
+                <input type="text" name="">
+                <br>
+                <label >Seleccione los dias para visualizar las citas disponibles</label>
+                <input type="checkbox" name="fecha-cita" value="2023-04-19">Miercoles, 19 de Abril del 2023 <br>
+                <input type="checkbox" name="fecha-cita" value="2023-04-20">juesves, 20 de Abril del 2023 <br>
+                <input type="checkbox" name="fecha-cita" value="2023-04-21">viernes, 21 de Abril del 2023 <br>
+                <input type="checkbox" name="fecha-cita" value="2023-04-22">sabado, 22 de Abril del 2023 <br>
+                <br>
+                <label> Ingresesu genero</label>
+                <input type="radio" name="genero" value="masculino">masculino <br>
+                <input type="radio" name="genero" value="femenino">femenino <br>
+                <input type="radio" name="genero" value="otros">otros<br>
+                <label> le gustaría hacer una petición especial</label>
+                <textarea name="peticiones" id="" cols="30" rows="5"></textarea>
+                <input type="submit" value="Iniciar Sesion">
+    
+    
+    
+            </div>
+        </form>
+            
+    </div>
+    
+</body>
+</html>
