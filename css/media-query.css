@@ -1,5 +1,5 @@
 
-li{
+.inter-menu{
     display: inline-block;
     font-family: sans-serif;
     padding: 20px 30px;
@@ -18,16 +18,19 @@ a{
 .img-backgraund{
     width: 100%;
     height: 100vh;
-    background-image: url(../img/f5e2bb8e-dc33-4836-9d77-8fb9a3f627f6.jpg);
+    background-image: url(../img/81LK62F+j7L.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
 }
 .main-nav{
-    position: absolute;
     width: 1200px;
     height: 0px;
     margin: 10px;
+}
+.logo-hamburguer{
+    display: none;
+
 }
 .main-menu{
     text-align: left;
@@ -35,11 +38,6 @@ a{
 }
 .img-logo{
     float: left;
-
-}
-a:hover{
-    border-bottom: 3px solid white;
-    margin-top: 50%;
 }
 .barran-nav{
     width: 100%;
@@ -47,10 +45,45 @@ a:hover{
     position: absolute;
     display: flex;
     justify-content: center;
+    top: 0;
 }
 @media only screen and (max-width: 1300px) {
     .main-menu {
         display: none;
     }
-    
+    .img-backgraund{
+        background-image: url("../img/5bacahzt8fh61.jpg");
+        background-size: cover;
+    }
+    .logo-hamburguer{
+        font-size: 2.5em;
+        top: 25px;
+        position: absolute;
+        margin-right: 30px;
+        display: block;
+        right: 25px;
+        color: white;
+    }
+    .logo-hamburguer:hover{
+        cursor: pointer;
+        background-color: rgba(96, 96, 96, 0.8);;
+    }
+    .main-menu-block{
+        display: block;
+        background-color: rgb(64, 64, 64, .8);
+        margin-top: 85px;
+        height: 100vh;
+        padding-top: 5px;
+        font-size: 0.9em;
+    }
+    .inter-menu{
+        display: block;
+        border-bottom: 1px solid rgb(255, 255, 255, .7);
+        padding-bottom: 7px;
+        text-align: center;
+
+    }
+    .inter-menu:hover{
+        background-color: red;
+    }
 }
