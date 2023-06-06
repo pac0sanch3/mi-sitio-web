@@ -1,0 +1,106 @@
+.box-1{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 300px;
+    display: block;
+    background-color: violet;
+    height: 300px;
+    transition: all 1.5s;
+    position: relative;
+}
+.box-1:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    left: 250px;
+}
+.box-2{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    transition: all 1.5s;
+}
+.box-2:hover{
+    cursor: pointer;
+    background-color: darkolivegreen;
+    width: 500px;
+}
+.box-3{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    transition: background-color 1.5s;
+}
+.box-3:hover{
+    background-color: rgb(124, 25, 25);
+    cursor: pointer;
+}
+.box-padre{
+    width: 600px;
+    height: 350px;
+}
+
+.box-padre:hover > .box-1{
+    cursor: pointer;
+    left: 250px;
+}
+.box-4{
+    position: relative;
+    border-radius: 55px;
+    left: 10px;
+    top: 5px;
+    width: 110px;
+    background-color: #ffff;
+    height: 110px;
+    transition: left 1.5s;
+}
+.box-4-1{
+    width: 370px;
+    height: 120px;
+    background-color: rgb(3, 116, 219);
+    border-radius: 70px;
+}
+.box-4-1:hover>.box-4{
+    cursor: pointer;
+    left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box_4{
+    position: relative;
+    border-radius: 55px;
+    left: 10px;
+    top: 5px;
+    width: 110px;
+    background-color: #ffff;
+    height: 110px;
+    transition: all 1.5s;
+}
+.box_4_1{
+    width: 370px;
+    height: 120px;
+    background-color: rgb(3, 116, 219);
+    border-radius: 70px;
+}
+
+.box_5{
+    position: relative;
+    border-radius: 55px;
+    right: 10px;
+    top: 5px;
+    width: 110px;
+    background-color: #ffff;
+    height: 110px;
+    transition: all 1.5s;
+}
