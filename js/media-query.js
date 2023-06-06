@@ -1,4 +1,4 @@
-alert("los Primarcas")
+
 let logohamburguer=document.getElementById("logohamburguer")
 let mainMenu=document.getElementById("mainMenu");
 
