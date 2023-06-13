@@ -1,0 +1,25 @@
+.box1{
+    background-color: black;
+    top: 50px;
+    left: 200px;
+    z-index: 10;
+}
+.box2{
+    background-color: aqua;
+    z-index: 5;
+}
+.box3{
+    background-color: blue;
+    z-index: -5;
+    top: 100px;
+    left: 100px;
+}
+.box{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+}
+body{
+/*     background-color: brown; */
+    z-index: 1;
+}
