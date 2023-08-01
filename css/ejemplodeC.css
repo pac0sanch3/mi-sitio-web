@@ -28,7 +28,7 @@
     grid-column-start: 6;
 }
 .box{
-    width: 30px;
+    text-align: center;
 }
 .dia-semana1{
     color: red;
@@ -37,4 +37,5 @@
 .box1{
     font-weight: 800;
     font-size: 2em;
+    text-align: center;
 }
