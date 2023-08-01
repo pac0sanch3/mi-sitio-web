@@ -1,0 +1,25 @@
+.main-box-5{
+    border: 5px solid rgb(64, 64, 64);
+    margin: 0 auto 0 auto;
+    gap: 20px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(7, 120px);               
+}
+.nombre-mes{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-align: center;
+    height: 100px;
+}
+.año{
+    text-align:end ;
+    height: 100px;
+    font-size: 3em;
+}
+.dia-1{
+    grid-column-start: 6;
+}
+.box{
+    width: 30px;
+}
