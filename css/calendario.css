@@ -1,0 +1,79 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.main-box{
+    border: 5px solid rgb(64, 64, 64);
+    margin: 0 auto 0 auto;
+    width: 800px;
+    gap: 20px;
+}
+.main-box-1{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+}
+.main-box-2{
+    display: grid;
+    grid-template-columns: 1fr 150px 150px 1fr;
+}
+.main-box-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.box-4-1 {
+    background-color: goldenrod;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.box-4-2{
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color: burlywood;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 120px;
+    background-color: dodgerblue;
+    color:white;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.main-box-3{
+    display: grid;
+    grid-template-columns:150px 1fr 150px;
+    grid-template-rows: 100px 300px 100px 50px;
+}
+.box-2{
+    width: 100%;
+    height: 100%;
+    background-color: dodgerblue;
+    color:white;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.main-box-5{
+    border: 5px solid rgb(64, 64, 64);
+    margin: 0 auto 0 auto;
+    gap: 20px;
+    width: 960px;
+    display: grid;
+    grid-template-columns: repeat(7, 120px);               
+}
+.nombre-mes{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-align: center;
+}
+.dia-semana{
+    
+}
+.dia-1{
+    grid-column-start: 6;
+}

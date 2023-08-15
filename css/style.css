@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+th, tr{
+    padding: 10px 15px;
+}
+table{
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    display: block;
+    margin: 400px;
+    margin-top: 80px;
+
+}
+.table-box{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.col-style{
+    width: 150px;
+}
+.col-fam{
+    background-color: rgb(253, 39, 39);
+    border: 0;
+}
+.col-fem{
+    border: 0;
+    background-color: rgb(231, 111, 31);
+}
+.col-fum{
+    border: 0;
+    background-color: goldenrod;
+}
+.col-fim{
+    border: 0;
+    background-color: rgb(78, 156, 78);
+}
+.colo-row{
+    background-color: rgb(170, 170, 172);
+}
+.img-check{
+    display: flex;
+    margin: 0 auto;
+}
+.logo-equis{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.col-fan{
+    background-color: rgb(211, 61, 61);
+}
+.col-fen{
+    background-color: rgb(219, 123, 59);
+}
+.col-fun{
+    background-color: gold;
+}
+.col-fin{
+    background-color: rgb(98, 151, 98);
+}
+.color-white{
+    background-color: white;
+}
+.color-row{
+    background-color: rgb(170, 170, 172);;
+}
