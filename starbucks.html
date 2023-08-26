@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/starbucks.css">
+    <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
     <header>
@@ -21,37 +22,27 @@
         </nav>
     </header>
     <div class="main-content">
-        <div class="circle" id="circle"></div>
+        <div class="circle circle-green" id="circle"></div>
         <div class="social-media">
-            <img src="img/facebook.png" alt="">
-            <img src="img/twitter.png" alt="">
-            <img src="img/instagram.png" alt="">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
         </div>
-    </div>
-    <div class="img-backgraund"></div>
-    <div class="todo">
-        
-        <div class="main-text">
-            
-            <div class="text">
-                <h2>It's not juts Coffee <br>It's <span class="Lorem">Starbucks</span></h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint dolore blanditiis nam? Fugiat est ipsum voluptas sapiente natus voluptate, consequatur ullam similique deleniti distinctio, asperiores voluptatum id ea? Atque, aut?
-                    <br>
-                    <a href=#>LEARN MORE</a>
-                </p>
-                
-            </div>
+        <div class="img">
+            <img id="mainimg" src="img/img1.png" alt="">
         </div>
-    </div>
-    <ul class="thumb">
-        <li><img src="img/thumb1.png" onclick="circleV"></li>
-        <li><img src="img/thumb2.png" onclick="circle"></li>
-        <li><img src="img/thumb3.png" onclick="circleM"></li>
-    </ul>
+        <div class="product-text">
+            <h1>It's not just coffee <br>It's <span>Starbucks</span></h1>
+            <h2 class="description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis perferendis blanditiis odit harum aspernatur dolor corrupti ducimus nam, nemo sunt labore eveniet amet voluptates natus consequuntur unde nisi quia.</h2>
+            <input type="button" class="button" value="LEARN MORE">
+        </div>
+        <div class="botones">
+            <img id="icegreen" src="img/thumb1.png" alt="" class="thumb" >
+            <img id="icerose" src="img/thumb2.png" alt="" class="thumb">
+            <img id="icepink" src="img/thumb3.png" alt="" class="thumb">
+        </div>
 
-
-
+    
     <script src="js/starbucks.js"></script>
 </body>
 </html>

@@ -1,11 +1,7 @@
-.Lorem{
-  color: #017143;
-  font-weight: 900;
-}
+
 *{
-  border: 0;
-  margin: 0;
-  font-family: 'Poppins';
+    border: 0;
+    margin: 0;
 }
 body{
   width: 100%;
@@ -14,9 +10,9 @@ body{
                  minmax(700px, 800px)       ;
 }
 header{
-  display: grid;
-  grid-template: "logo                nav               "/
-                 minmax(780px, 1fr)  minmax(780px, 1fr) ;
+    display: grid;
+    grid-template: "empty-left logo nav empty-rigth"140px/
+                    140px       1fr  1fr      50px;
 }
 .logo{
   grid-area: logo;
@@ -29,9 +25,11 @@ nav{
   grid-area: nav;
 }
 .menu{
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    font-family: sans-serif, 'Poppins';
+ 
 }
 .menu li{
   margin: 60px 20px 20px 20px;
@@ -45,136 +43,102 @@ nav{
   font-weight: 500;
 }
 .circle{
-  width: 1300px;
-  height: 1300px;
-  background-color: #eb7495;
-  border-radius: 50%;
-  position: fixed;
-  bottom: -740px;
-  right: -710px;
-
+    width: 1800px;
+    height: 1800px;
+    border-radius: 900px;
+    position: fixed;
+    top: 280px;
+    right: -950px;
+    z-index: 5;
 }
-.circleV{
-  width: 1300px;
-  height: 1300px;
-  background-color: #017143;
-  border-radius: 50%;
-  position: fixed;
-  bottom: -740px;
-  right: -710px;
-
+.circle-green{
+  background-color: rgb(2, 98, 58);
 }
-.circleM{
-  width: 1300px;
-  height: 1300px;
-  background-color: #d752b1;
-  border-radius: 50%;
-  position: fixed;
-  bottom: -740px;
-  right: -710px;
-
+.circle-pink{
+  background-color: rgb(215, 81, 176);
+}
+.circle-rose{
+  background-color: rgb(213, 104, 146);
+}
+.main-content{
+  display: grid;
+  margin-top: 140px;
+  grid-template: "empty-left product-text empty-center      img          social-media"/
+                  140px     5fr           minmax(0, 300px)  4fr          80px;
 }
 .social-media{
   justify-content: center;
-  filter: invert(1);
   align-items: center;
   display: flex;
-  width: 150px;
-  height: 100vh;
+  font-size: 2em;
   flex-direction: column;
-  position: fixed;
-  right: 0;
-  top: 0;
-  gap: 25px;
+  gap: 40px;
+  color: white;
+  grid-area: social-media;
+  z-index: 10;
+  cursor: pointer;
 }
-.todo{
-  display: grid;
-  margin-top: 20px;
-  gap: 80px;
-  margin-left: -280px;
-  grid-template: "text main-title title lorem" ;
+.product-text{
+  grid-area:product-text ;
+}
+.product-text span {
+  font-weight: 900;
+  font-family: sans-serif, 'Poppins';
+  color: rgb(2, 104, 64); 
 
 }
-.main-text{
-  grid-area: main-text;
+.product-text h1 {
+  font-size: 5em;
+  font-family: sans-serif, 'Poppins';
+  font-weight: 500px;
 }
-.text{
-  grid-area: text;
-  border-radius: 12px;
+.description-text{
+  margin-top: 30px;
+  color: rgb(96, 96, 93);
+  font-family: sans-serif, 'Poppins';
+  font-size: 1.3em;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  font-weight: 500;
 }
-.text h2{
-  font-size: 4em;
-  line-height: 1.4em;
-  font-weight: 300;
+.img{
+  grid-area: img;
+  z-index: 10;
 }
-.text a{
-  display: inline-block;
-  background-color: #017143;
-  color: white;
-  font-weight: 900;
-  height: 25px;
-  width: 100px;
-  text-decoration: none;
-  padding: 8px 20px;
-  border-radius: 40px;
-  margin-top: 20px;
+.button{
+  width: 200px;
+  margin-top: 30px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(2, 104, 64);
+  color:white;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  cursor: pointer;
 }
-.img-backgraund{
-  background-image: url(../img/img2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.botones{
   position: fixed;
-  width: 360px;
-  height: 550px;
-  display: inline;
-  margin-left: 1000px;
-  margin-top: 200px;
-}
-.thumb{
-  position: absolute;
   left: 600px;
   bottom: 20px;
   flex-direction: row;
   display: flex;
-
-}
-.thumb li{
-  list-style: none;
-  display: inline-block;
   margin: 0 20px;
   cursor: pointer;
-  transition: all 0.5s;
+  width: 100%;
+  z-index: 10;
+  gap: 40px;
 }
-.thumb li:hover{
-  transform: translateY(-15px);
+.thumb{
+  z-index: 20;
+  transition: all 0.3s;
+
 }
-.thumb li img{
-  max-width: 60px;
+.thumb:hover{
+  transform: translateY(-30px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

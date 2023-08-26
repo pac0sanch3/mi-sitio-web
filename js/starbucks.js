@@ -1,32 +1,25 @@
+let icegreen= document.getElementById("icegreen")
+let icerose=document.getElementById("icerose")
+let icepink=document.getElementById("icepink")
+let circle=document.getElementById("circle")
+let mainimg=document.getElementById("mainimg")
 
-let circleV=document.getElementById("circleV");
-let circle=document.getElementById("circle");
-let circleM=document.getElementById("circleM");
-
-
-circleV.addEventListener("click", function(){
-    if(circleV.classList.contains("circleV")){
-        circleV.classList.add("circleV");
-        circle.classList.remove("circle");
-        circle.classList.add("circle");
-        circleV.classList.remove("circleV");
-        circleM.classList.add("circleM");
-        circle.classList.remove("circle");
-
-    }
-    else{
-        circleV.classList.remove("circleV");
-        circleV.classList.add("circle");
-    }
+icegreen.addEventListener("mouseover", function(){
+    circle.classList.add("circle-green")
+    circle.classList.remove("circle-rose")
+    circle.classList.remove("circle-pink")
+    mainimg.setAttribute("src", "../img/img1.png")
 })
-circle.addEventListener("click", function(){
-    if(content.classList.contains("contenedor-1")){
-        content.classList.add("contenedor-2");
-        content.classList.remove("contenedor-1");
+icerose.addEventListener("mouseover", function(){
+    circle.classList.remove("circle-green")
+    circle.classList.add("circle-rose")
+    circle.classList.remove("circle-pink")
+    mainimg.setAttribute("src", "../img/img2.png")
+})
 
-    }
-    else{
-        content.classList.remove("contenedor-2");
-        content.classList.add("contenedor-1");
-    }
+icepink.addEventListener("mouseover", function(){
+    circle.classList.remove("circle-green")
+    circle.classList.remove("circle-rose")
+    circle.classList.add("circle-pink")
+    mainimg.setAttribute("src", "../img/img3.png")
 })
