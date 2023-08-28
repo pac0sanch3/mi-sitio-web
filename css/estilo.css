@@ -74,16 +74,17 @@ nav{
 .primero{
     display: grid;
     grid-template: "empty-left segundo    tercero empty-right"/
-                    140px        5fr       4fr    140px ;
+                    80px        5fr       4fr    80px ;
 }
 
 
 .segundo{
-    width: 900px;
-    height: 450px;
+    width: 820px;
+    height: 401px;
     grid-area: segundo;
     margin-right: 20px;
     border-radius: 8px;
+    background-color: antiquewhite;
 
 }
 .tercero{
@@ -103,8 +104,8 @@ nav{
 }
 .quinto{
     display: flex;
-    width: 675.59px;
-    height: 153px;
+    width: 550px;
+    height: 120px;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
@@ -124,7 +125,7 @@ nav{
     padding: 30px;
 }
 .img{
-    height: 153px;
+    height: 120px;
     width: 300px;
     -webkit-clip-path: polygon(15% 0,100% 0,100% 100%,0 100%);
     clip-path: polygon(15% 0,100% 0,100% 100%,0 100%);
@@ -180,7 +181,7 @@ nav{
 .sexto{
     display: grid;
     grid-template: "empty-left  octavo   onceavo empty-right"/
-                    100px        5fr       4fr    100px ;
+                    80px        5fr       4fr    80px ;
 }
 .octavo{
     margin-top: 100px;
@@ -193,8 +194,8 @@ nav{
 }
 .decimo{
     display: flex;
-    width: 850px;
-    height: 380px;
+    width: 670px;
+    height: 310px;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
