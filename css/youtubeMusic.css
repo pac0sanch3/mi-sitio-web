@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto' ;
+}
+body{
+    background-color: black;
+}
+.fa-bars {
+    font-size: 1.7em;
+    color: #fff;    
+}
+.boton-Ham{
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    transition: all 0.2s;
+    animation: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline;    
+}
+
+.boton-Ham:hover{
+    background-color: rgb(64, 64, 64);
+
+}
+.Music{
+    display: inline;
+
+}
+.menu{
+    background-color: black;
+    display: grid;
+    height: 65px;
+    border-bottom:rgb(64, 64, 64) solid 1px;
+    grid-template: "empty-left menu-derecha menu-center menu-izquierda empty-right"/
+                    20px        230px          minmax(0, 600px)   1fr        100px;
+}
+.menu-derecha{
+    grid-area: menu-derecha;
+}
+.menu-center{
+    grid-area: menu-center;
+}
+.barra{
+    background-color: rgb(41, 41, 41);
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border:none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+    justify-content: flex-end;
+    display: grid;
+    font-size: 1em;
+}
+.rojo{
+    background-color: rgb(41, 41, 41);
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    justify-content: center;   
+}
+
+.fa-magnifying-glass{
+    font-size: 1.2em;
+    color: rgb(148, 148, 148);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.menu-izquierda{
+    grid-area: menu-izquierda;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.logo{
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 15px;
+    display: inline;
+}
+.fa-closed-captioning{
+    color: #fff;
+    font-size: 1.7em;
+    display: inline;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+
+
+
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
