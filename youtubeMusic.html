@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/youtubeMusic.css">
-    <link rel="stylesheet" href="iconos/all.css">
+    <link rel="stylesheet" href="icons/all.css">
 
-</head>
+</head>  
 <body>
     <header class="menu">
         <div class="menu-derecha">
-                <button class="boton-Ham">
+                <button class="boton-Ham" id="toggle" onclick="toggle()">
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <div class="Music">
@@ -31,8 +31,66 @@
             <img src="img/CapturA1.JPG" alt="" class="logo">
         </div>
     </header>
-    <div>
+    <div class="nuevo-area">
+        <div class="container">
+            <div class="container2">Playlist</div>
+            <div class="container2">Canciones</div>
+            <div class="container2">Albumes</div>
+            <div class="container2">Artistas</div>
+            <div class="container2">Podcasts</div>
+            
+        </div>
+    </div>  
+    
+    <div class="menu-chiquito" id="navegacion">
+        <ul class="menu-tal">
+            <li class="barra2">
+                <a href="#">
+                    <i class="fa-solid fa-house Home1" style="color: #ffffff;"></i>
+                    <div class="text1">Prinsipal</div>
+                </a>
+            </li>
+            <li class="barra2">
+                <a href="#">
+                    <i class="fa-solid fa-gauge-simple Home1" style="color: #ffffff"></i>
+                    <div class="text1">Explorar</div>
+                </a>
+            </li>
+            <li class="barra2">
+                <a href="#">
+                    <i class="fa-brands fa-tiktok Home1" style="color: #ffffff;"></i>
+                    <div class="text1">Biblioteca</div>
+                </a>
+            </li>
+            <li class="barra2">
+                <a href="#">
+                    <img src="img/iconoyoutube.PNG" alt="" class="Home1">
+                    <div class="text1">Actualizar</div>
+                </a>
+            </li>
+        </ul>
+
     </div>
+    <div class="navegacion">
+        <ul class="explorar">
+            <div class="sub-menu">
+                </i> <a href="explorar.html" target="_blank" class="lasa"><i class="fa-solid fa-house" style="color: #ffffff;"></i> Prinsipal</di</a>
+            </div>
+
+        </ul>
+        <ul class="explorar">
+            <div class="sub-menu">
+                </i><a href="explorar.html" target="_blank" class="lasa"><i class="fa-solid fa-gauge-simple" style="color: #ffffff"></i>Explorar</a>
+            </div>
+        </ul>
+        <ul class="explorar">
+            <div class="sub-menu">
+                </i><a href="explorar.html" target="_blank" class="lasa"><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i> Biblioteca</a>
+            </div>
+        </ul>
+    </div>
+    <script src="js/youtubemusic.js"></script>
+
     
 </body>
 </html>

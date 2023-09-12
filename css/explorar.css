@@ -33,9 +33,6 @@ body{
     display: inline;
 
 }
-.menu.active {
-    transform: translateX(400px);
-}
 .menu{
     background-color: black;
     display: grid;
@@ -103,116 +100,8 @@ body{
     margin-top: 15px;
     margin-right: 20px;
 }
-.nuevo-area{
-    background-color: black;
-    display: grid;
-    height: 65px;
-    grid-template: "empty-left cont-derecha cont-center           cont-izquierda   empty-right"/
-                    20px        230px       minmax(0, 600px)     1fr             100px;
-}
-.menu-chiquito{
-    width: 70px;
-    height: 93.2vh;
-    grid-area: cont-derecha;
-    background-color: black;
-    border-right:solid 1px rgb(64, 64, 64) ;
-}
-.menu-tal{
-    display: grid;
-    flex-direction: column;
-    display: flex;
-}
-.barra2{
-    width: 56px;
-    height: 65px;
-    border-radius: 8px ;
-    text-align: center;
-    margin-top: 7px;
-    text-decoration: none;
-}
-.barra2:hover{
-    cursor: pointer;
-    background-color: rgb(29, 29, 29);
-    text-decoration: none;
-}
-.Home1{
-    margin-top: 15px;
-    
-}
-.text1{
-    color: #fff;
-    font-size: 0.7em;
-    margin-top: 5px;
-    
-}
-.navegacion{
-    display: none;
-}
-.navegacion-block{
-    display: block;
-    background-color: black;
-    height: 93.2vh;
-    padding-top: 5px;
-    font-size: 0.9em;
-    width: 240px;
-    border-right: solid 1px rgb(64, 64, 64);
-}
-.explorar {
-    width: 188px;
-    margin-left: 5px;
-    transition: all 0.2s;
-    border-radius: 8px;
-    height: 100px;
-    padding-left: 20px;
-}
-.sub-menu{
-    width: 188px;
-    height: 50px;
-    margin-top: 10px;
-}
-.lasa{
-    text-decoration: none;
-    color: #fff;
-    margin-left: 10px;
-    margin-top: 20px;
-}
-.fa-house{
-    display: inline;
-}
-
-.loso{
-    display: inline;
-    margin-top: 20px;
-}
-.explorar:hover{
-    background-color: rgb(64, 64, 64)
-}
-.container2 {
-    width: 75px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background: rgba(255,255,255,0.1);
-    margin-top:  40px; 
-    border-radius: 8px;
-    
-    transition: 0,99s;
-    
-}
-.container2:hover{
-    cursor: pointer;
-    background-color:  rgba(244, 244, 244, 0.2);
 
 
-}
-.container {
-    display: flex;
-    width: 100%;
-    grid-area: cont-center;
-    gap: 10px;   
-} 
 
 
 

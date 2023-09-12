@@ -85,22 +85,18 @@ nav{
     margin-right: 20px;
     border-radius: 8px;
     background-color: antiquewhite;
-
 }
 .tercero{
     grid-area: tercero;
     display: flex;
     flex-direction: column;
-
-
 }
 .cuarto{
     list-style: none;
     margin: 0;
     transition: .25s ease-out;
     box-shadow: 0 4px 4px rgba(10,10,10,.15);
-    border-radius: 8px;
-    
+    border-radius: 8px;   
 }
 .quinto{
     display: flex;
