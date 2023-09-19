@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family:'Roboto' ;
+    font-family: sans-serif;
 }
 body{
     background-color: black;
@@ -40,6 +40,7 @@ body{
     background-color: black;
     display: grid;
     height: 65px;
+    position: fixed;
     border-bottom:rgb(64, 64, 64) solid 1px;
     grid-template: "empty-left menu-derecha menu-center menu-izquierda empty-right"/
                     20px        230px          minmax(0, 600px)   1fr        100px;
@@ -107,8 +108,9 @@ body{
     background-color: black;
     display: grid;
     height: 65px;
+    padding-top: 70px;
     grid-template: "empty-left  cont-center         empty-right"/
-                    175px         minmax(0, 1300px)   115px;
+                    225px         minmax(0, 1500px)   115px;
 }
 .menu-chiquito{
     margin-top: 66px;
@@ -146,6 +148,7 @@ body{
     font-size: 0.7em;
     margin-top: 5px;
     text-decoration: none;
+    font-family:'Roboto' ;
     
 }
 .decoration{
@@ -280,9 +283,8 @@ body{
     background-color: red;
 }
 .cajaPadre1{
-    background-color: white;
     margin-top: 560px;
-    height: 322px;
+    height: 389px;
     grid-area: cont-center;
 }
 .palantepatras1{
@@ -292,22 +294,38 @@ body{
     margin-left: 1160px;
     margin-top: -40px;
 }
+.delacomunidad{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 900;  
+}
 .cajanieto2{
     width: 912px;
-    background-color: blue;
-    height: 36px;
+    height: 54px;
     display: flex;
+}
+.text2{
+    margin-top: 280px;
+    margin-left: -250px;
+}
+.text2 .text3{
+    color: #fff;
+}
+.text2 .text4{
+    color:rgb(148, 148, 148);
 }
 .cajahija2{
     grid-area: cont-center;
 }
 .caja2{
     background-color: red;
+    margin-top: 20px;
 }
 .cajabox1{
-    width: 193px;
-    height: 193px;
+    width: 250px;
+    height: 250px;
     border-radius: 4px;
+    
 }
 .cajabox{
     flex-direction: row;
