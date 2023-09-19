@@ -107,13 +107,14 @@ body{
     background-color: black;
     display: grid;
     height: 65px;
-    grid-template: "empty-left cont-derecha cont-center           cont-izquierda   empty-right"/
-                    20px        230px       minmax(0, 600px)     1fr             100px;
+    grid-template: "empty-left  cont-center         empty-right"/
+                    175px         minmax(0, 1300px)   115px;
 }
 .menu-chiquito{
+    margin-top: 66px;
     width: 70px;
     height: 93.2vh;
-    grid-area: cont-derecha;
+    position: fixed;
     background-color: black;
     border-right:solid 1px rgb(64, 64, 64) ;
 }
@@ -129,6 +130,7 @@ body{
     text-align: center;
     margin-top: 7px;
     text-decoration: none;
+    margin-left: 7px;
 }
 .barra2:hover{
     cursor: pointer;
@@ -143,7 +145,11 @@ body{
     color: #fff;
     font-size: 0.7em;
     margin-top: 5px;
+    text-decoration: none;
     
+}
+.decoration{
+    text-decoration: none;
 }
 .navegacion{
     display: none;
@@ -169,6 +175,7 @@ body{
     width: 188px;
     height: 50px;
     margin-top: 10px;
+    text-decoration: none;
 }
 .lasa{
     text-decoration: none;
@@ -196,9 +203,8 @@ body{
     color: white;
     background: rgba(255,255,255,0.1);
     margin-top:  40px; 
-    border-radius: 8px;
-    
     transition: 0,99s;
+    border-radius: 8px;
     
 }
 .container2:hover{
@@ -211,8 +217,246 @@ body{
     display: flex;
     width: 100%;
     grid-area: cont-center;
-    gap: 10px;   
-} 
+    gap: 10px; 
+      
+}
+.cajaPadre{
+    background-color: white;
+    margin-top: 120px;
+    height: 358px;
+    grid-area: cont-center;
+}
+.cajahijo1{
+    grid-area: cont-center;
+}
+.laimagen{
+    width: 55px;
+    border-radius: 50%;    
+}
+.palantepatras{
+    gap: 16px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 1160px;
+    margin-top: -40px;
+}
+.triizquierda{
+    height: 36px;
+    width: 36px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 1px rgb(41, 41, 41);
+    transition: all 0.2s;
+    cursor: pointer;
+    
+}
+.triizquierda:hover{
+    background-color: rgb(64, 64, 64);
+}
+.triderecha:hover{
+    background-color: rgb(64, 64, 64);
+}
+
+.triderecha{
+    height: 36px;
+    width: 36px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    border: solid 1px rgb(41, 41, 41);
+    transition: all 0.2s;
+
+}
+.cajahija1{
+    grid-area: cont-center;
+}
+.cajanieto1{
+    width: 912px;
+    background-color: blue;
+    height: 50px;
+    display: flex;
+}
+.caja1{
+    background-color: red;
+}
+.cajaPadre1{
+    background-color: white;
+    margin-top: 560px;
+    height: 322px;
+    grid-area: cont-center;
+}
+.palantepatras1{
+    gap: 16px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 1160px;
+    margin-top: -40px;
+}
+.cajanieto2{
+    width: 912px;
+    background-color: blue;
+    height: 36px;
+    display: flex;
+}
+.cajahija2{
+    grid-area: cont-center;
+}
+.caja2{
+    background-color: red;
+}
+.cajabox1{
+    width: 193px;
+    height: 193px;
+    border-radius: 4px;
+}
+.cajabox{
+    flex-direction: row;
+    display: flex;
+    gap: 22px;
+}
+.cajaPadre2{
+    background-color: white;
+    margin-top: 1060px;
+    height: 328px;
+    grid-area: cont-center;
+}
+.palantepatras2{
+    gap: 16px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 1160px;
+    margin-top: -40px;
+}
+.cajanieto3{
+    width: 912px;
+    background-color: blue;
+    height: 36px;
+    display: flex;
+}
+.caja3{
+    background-color: red;
+}
+.cajaPadre3{
+    background-color: white;
+    margin-top: 1560px;
+    height: 338px;
+    grid-area: cont-center;
+}
+.palantepatras3{
+    gap: 16px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 1160px;
+    margin-top: -40px;
+}
+.cajanieto4{
+    width: 912px;
+    background-color: blue;
+    height: 36px;
+    display: flex;
+}
+.caja4{
+    background-color: red;
+}
+.cajaPadre4{
+    background-color: white;
+    margin-top: 2060px;
+    height: 324px;
+    grid-area: cont-center;
+}
+.palantepatras4{
+    gap: 16px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 1160px;
+    margin-top: -40px;
+}
+.cajanieto5{
+    width: 912px;
+    background-color: blue;
+    height: 36px;
+    display: flex;
+}
+.cajaS{
+    background-color: rgb(0, 0, 0);
+    width: 1250px;
+    height: 300px;
+}
+.cajatotal{
+    height: 70px;
+    width: 450px;
+    display: flex;
+}
+.poner{
+    display: grid;
+    grid-template: "derecha izquierda"/
+                     625px  625px;
+}
+.cajatotal{
+    height: 70px;
+    width: 620px;
+    display: flex;
+}    
+.cajaboxuno{
+    background-color: blueviolet;
+    grid-area: derecha;
+}
+.cajabox2{
+    background-color: white;
+    grid-area: derecha;
+    margin-top: 80px;
+}
+.cajabox3{
+    background-color: rgb(39, 29, 48);
+    grid-area: derecha;
+    margin-top: 150px;
+}
+.cajabox4{
+    background-color: rgb(43, 186, 226);
+    grid-area: derecha;
+    margin-top: 220px;
+}
+.cajabox5{
+    background-color: rgb(226, 134, 43);
+    grid-area: izquierda;
+}
+.cajabox6{
+    background-color: rgb(43, 226, 86);
+    grid-area: izquierda;
+    margin-top: 80px;
+}
+.cajabox7{
+    background-color: rgb(226, 43, 43);
+    grid-area: izquierda;
+    margin-top: 150px;
+}
+.cajabox8{
+    background-color: rgb(43, 49, 226);
+    grid-area: izquierda;
+    margin-top: 220px;
+}
+.cajaPadre5{
+    background-color: white;
+    margin-top: 2560px;
+    height: 338px;
+    grid-area: cont-center;
+}
+.palantepatras5{
+    gap: 16px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 1160px;
+    margin-top: -40px;
+}
+.cajanieto6{
+    width: 912px;
+    background-color: blue;
+    height: 36px;
+    display: flex;
+}
+.caja6{
+    background-color: red;
+}
 
 
 
