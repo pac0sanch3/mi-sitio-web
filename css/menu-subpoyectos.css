@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 nav ul{
     background-color: rgb(48, 48, 48);
@@ -11,7 +12,6 @@ nav ul{
     list-style: none;
 }
 nav a{
-    text-decoration: none;
     color: white;
     width: 61.2%;
     display: block;
