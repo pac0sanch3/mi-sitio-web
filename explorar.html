@@ -6,16 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/explorar.css">
     <link rel="stylesheet" href="iconos/all.css">
-
+    <link rel="icon" type="image.png" href="img/youtubicon.PNG">
 </head>
-<body>
-    <header class="menu">
-        <div class="menu-derecha">
-                <button class="boton-Ham" >
+<body id="body">
+    <header class="menufixed">
+        <nav class="menu">
+            <div class="menu-derecha">
+                <button class="boton-Ham" id="toggle" onclick="toggle()">
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <div class="Music">
-                    <a href="#"><img src="img/on_platform_logo_dark.svg" alt="" ></a> 
+                    <a href="#body"><img src="img/on_platform_logo_dark.svg" alt="" ></a> 
                 </div>
             </div>
         <div class="menu-center">
@@ -30,6 +31,500 @@
             </div>
             <img src="img/CapturA1.JPG" alt="" class="logo">
         </div>
+        </nav>
     </header>
+    <section class="menu-chiquito" id="navegacion">
+        <ul class="menu-tal">
+            <li class="barra2">
+                <a href="#">
+                    <i class="fa-solid fa-house Home1" style="color: #ffffff;"></i>
+                    <div class="text1">Prinsipal</div>
+                </a>
+            </li>
+            <li class="barra2">
+                <a href="explorar.html">
+                    <i class="fa-solid fa-gauge-simple Home1" style="color: #ffffff"></i>
+                    <div class="text1">Explorar</div>
+                </a>
+            </li>
+            <li class="barra2" >
+                <a href="biblioteca.html">
+                    <i class="fa-brands fa-tiktok Home1" style="color: #ffffff;"></i>
+                    <div class="text1">Biblioteca</div>
+                </a>
+            </li>
+            <li class="barra2" >
+                <a href="actualizar.html">
+                    <img src="img/iconoyoutube.PNG" alt="" class="Home1">
+                    <div class="text1">Actualizar</div>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <div class="nuevo-area">
+        <div class="container">
+            <div class="container2">Playlist</div>
+            <div class="container2">Canciones</div>
+            <div class="container2">Albumes</div>
+            <div class="container2">Artistas</div>
+            <div class="container2">Podcasts</div>
+        </div>
+        <div class="cajaPadre">
+            <div class="cajahijo1">
+                <div class="cajanieto1">
+                    <div>
+                        <img src="img/CapturA1.JPG" alt="" class="laimagen">
+                        <div>
+                            <p class="joseLuis">JOSE LUIS NORIEGA TRUJILLO</p>
+                            <p class="joseLuis2">Volver a escuchar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="palantepatras">
+                    <button class="triizquierda">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    </button>
+                    <button class="triderecha">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="cajabox cajahija1 " >
+                <a href="#">
+                    <div class="cajabox1 caja1">
+                        <img src="https://picsum.photos/300/300?random=13" alt=""  class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </a>
+                <div>
+                    <div class="cajabox1 caja1">
+                        <img src="https://picsum.photos/300/300?random=14" alt=""  class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajabox1 caja1">
+                        <img src="https://picsum.photos/300/300?random=15" alt=""  class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajabox1 caja1">
+                        <img src="https://picsum.photos/300/300?random=16" alt=""  class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajabox1 caja1">
+                        <img src="https://picsum.photos/300/300?random=17" alt=""  class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajabox1 caja1">
+                        <img src="https://picsum.photos/300/300?random=18" alt=""  class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cajaPadre1">
+            <div class="cajahijo2">
+                <div class="cajanieto2">
+                    <p class="delacomunidad" >Estados de ánimo y géneros</p>
+                </div>
+                <div class="palantepatras1">
+                    <button class="triizquierda">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    </button>
+                    <button class="triderecha">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="cajabox cajahija2">
+                <div class="cajaS">
+                    <ul>
+                        <a href="#" class="poner1">
+                            <div class="cajatotal1 cajaboxuno1" >
+                                <div class="text2 ">
+                                    <p class="text5">Dosis de energía</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox13" >
+                                <div class="text2">
+                                    <p class="text5">Fiesta</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox14">
+                                <div class="text2">
+                                    <p class="text5">Para el camino</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox15" >
+                                <div class="text2">
+                                    <p class="text5">Bachata</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox16">
+                                <div class="text2">
+                                    <p class="text5">Indie y alternativa</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox17" >
+                                <div class="text2">
+                                    <p class="text5">Orgullo LGBTQ+</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox18">
+                                <div class="text2">
+                                    <p class="text5">Ejercicio</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox19" >
+                                <div class="text2">
+                                    <p class="text5">Latina</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox20">
+                                <div class="text2">
+                                    <p class="text5">Para sentirse bien</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox21" >
+                                <div class="text2">
+                                    <p class="text5">R&B y soul</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox22">
+                                <div class="text2">
+                                    <p class="text5">Lucha afroestadounidence</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox23" >
+                                <div class="text2">
+                                    <p class="text5">Dance y electronica</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajaboxuno2" >
+                                <div class="text2 ">
+                                    <p class="text5">Hip-Hop</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox24" >
+                                <div class="text2">
+                                    <p class="text5">Relajacion</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox25">
+                                <div class="text2">
+                                    <p class="text5">Pop latino</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox26" >
+                                <div class="text2">
+                                    <p class="text5">Concentración</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox27">
+                                <div class="text2">
+                                    <p class="text5">Triste</p>
+
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox28" >
+                                <div class="text2">
+                                    <p class="text5">Pop</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox29">
+                                <div class="text2">
+                                    <p class="text5">Hiphop en español</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox30" >
+                                <div class="text2">
+                                    <p class="text5">Urbano</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox31">
+                                <div class="text2">
+                                    <p class="text5">Los 2010</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox32" >
+                                <div class="text2">
+                                    <p class="text5">Romance</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox33">
+                                <div class="text2">
+                                    <p class="text5">los 2000</p>
+                                </div>
+                            </div>
+                            <div class="cajatotal1 cajabox34" >
+                                <div class="text2">
+                                    <p class="text5">Familia</p>
+                                </div>
+                            </div>
+                        </a>
+                    </ul>
+
+                </div>     
+            </div>
+        </div>
+        <div class="cajaPadre4">
+            <div class="cajahijo5">
+                <div class="cajanieto5">
+                    <div>
+                        <p class="joseLuis">INICIA LA RADIO A PARTIR DE UNA CANCIÓN</p>
+                    </div>
+                    <div>
+                        <p class="joseLuis2">Selección rápida</p>
+                    </div>
+                </div>
+                <div class="palantepatras4">
+                    <button class="triizquierda">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    </button>
+                    <button class="triderecha">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="cajahija5">
+                <div class="cajaS">
+                    <ul>
+                        <a href="#" class="poner">
+                            <div class="cajatotal cajaboxuno" >
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=31" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox2" >
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=32" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox3">
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=33" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox4" >
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=34" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox5">
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=35" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox6" >
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=36" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox7">
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=37" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox8" >
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=38" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox9">
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=39" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox10" >
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=40" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox11">
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=41" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                            <div class="cajatotal cajabox12" >
+                                <span>
+                                    <img src="https://picsum.photos/300/300?random=42" alt="" class="imgRan1">
+                                </span>
+                                <div class="text2">
+                                    <p class="text5">modo guerra, bestia a por mi meta</p>
+                                    <p class="text6">sebnezz  401k vistas </p>
+                                </div>
+                            </div>
+                        </a>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="cajaPadre5">
+            <div class="cajahijo6">
+                <div class="cajanieto6">
+                    <div>
+                        <p class="nuevoLan">Playlists recomendadas</p>
+                    </div>
+                </div>
+                <div class="palantepatras5">
+                    <button class="triizquierda">
+                        <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    </button>
+                    <button class="triderecha">
+                        <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="cajabox cajahija6">
+                <div>
+                    <div class="cajabox1 caja6">
+                        <img src="https://picsum.photos/300/300?random=25" alt="" class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajabox1 caja6">
+                        <img src="https://picsum.photos/300/300?random=26" alt="" class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajabox1 caja6">
+                        <img src="https://picsum.photos/300/300?random=27" alt="" class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajabox1 caja6">
+                        <img src="https://picsum.photos/300/300?random=28" alt="" class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajabox1 caja6">
+                        <img src="https://picsum.photos/300/300?random=29" alt="" class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajabox1 caja6">
+                        <img src="https://picsum.photos/300/300?random=30" alt="" class="imgRan">
+                    </div>
+                    <div class="text2">
+                        <p class="text3">modo guerra, bestia a por mi meta</p>
+                        <p class="text4">sebnezz  401k vistas </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div> 
+    <nav class="navegacion">
+        <ul class="explorar">
+            <div class="sub-menu">
+                </i><a href="explorar.html" target="_blank" class="lasa"><i class="fa-solid fa-house" style="color: #ffffff;"></i> Prinsipal</a>
+            </div>
+
+        </ul>
+        <ul class="explorar">
+            <div class="sub-menu">
+                </i><a href="explorar.html" target="_blank" class="lasa"><i class="fa-solid fa-gauge-simple" style="color: #ffffff"></i>Explorar</a>
+            </div>
+        </ul>
+        <ul class="explorar">
+            <div class="sub-menu">
+                </i><a href="explorar.html" target="_blank" class="lasa"><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i> Biblioteca</a>
+            </div>
+        </ul>
+    </nav>
+    <script src="js/youtubemusic.js"></script>
+
+
+    
 </body>
 </html>
