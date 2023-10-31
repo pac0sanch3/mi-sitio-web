@@ -1,0 +1,12 @@
+let mainContent= document.getElementById("maincontent")
+let boxProducto= document.createElement("div")
+mainContent.appendChild(boxProducto)
+boxProducto.setAttribute("class","box-producto")
+let marcaProducto=document.createElement("label")
+mainContent.appendChild(marcaProducto)
+let nodoMarcaProducto=document.createTextNode("Mazda")
+marcaProducto.appendChild(nodoMarcaProducto)
+let imgProduct=document.createElement("img")
+mainContent.appendChild(imgProduct)
+imgProduct.setAttribute("src", "img/hypermotard.jpg")
+

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+header{
+    display: grid;
+    grid-template: "ezquirda centro derecha derecha-2" /
+                    150px       1fr     80px    80px;
+    background-color:rgb(255, 229, 0);
+    width: 100%;
+}
+.carrito{
+    grid-area: derecha;
+    display: inline;
+
+    margin-top: 20px;
+}
+.menu{
+    grid-area: derecha-2    ;
+    display: inline;
+    
+}
+.input{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-area: centro;
+   
+}
+.box-producto{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
