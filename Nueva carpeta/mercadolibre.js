@@ -23,32 +23,30 @@ imagenProducto.setAttribute("src", "img/hypermotard.jpg")
 imagenProducto.setAttribute("class", "imagen-producto")
 
 
-let marcaProducto=document.createElement("label")
+let marcaProducto=document.createElement("div")
 infoproducto.appendChild(marcaProducto)
 let nodoMarcaProducto=document.createTextNode(" Ducaty Hypermotard ")
 marcaProducto.appendChild(nodoMarcaProducto)
 
-
-let marcaProducto3=document.createElement("label")
-infoproducto.appendChild(marcaProducto3)
-let nodoMarcaProducto5=document.createTextNode(" $76.000.000 ")
-marcaProducto3.appendChild(nodoMarcaProducto5)
-
-
-let marcaProducto4=document.createElement("label")
-infoproducto.appendChild(marcaProducto4)
-let nodoMarcaProducto3=document.createTextNode(" 12.327 km ")
-marcaProducto4.appendChild(nodoMarcaProducto3)
-
-let marcaProducto2=document.createElement("label")
+let marcaProducto2=document.createElement("div")
 infoproducto.appendChild(marcaProducto2)
 let nodoMarcaProducto2=document.createTextNode(" 2023 ")
 marcaProducto2.appendChild(nodoMarcaProducto2)
 
-let marcaProducto5=document.createElement("label")
+let marcaProducto3=document.createElement("div")
+infoproducto.appendChild(marcaProducto3)
+let nodoMarcaProducto5=document.createTextNode(" $76.000.000 ")
+marcaProducto.appendChild(nodoMarcaProducto5)
+
+let marcaProducto4=document.createElement("div")
+infoproducto.appendChild(marcaProducto4)
+let nodoMarcaProducto3=document.createTextNode(" 12.327 km ")
+marcaProducto.appendChild(nodoMarcaProducto3)
+
+let marcaProducto5=document.createElement("div")
 infoproducto.appendChild(marcaProducto5)
-let nodoMarcaProducto4=document.createTextNode(" bolivar-bogota D.C")
-marcaProducto5.appendChild(nodoMarcaProducto4)
+let nodoMarcaProducto4=document.createTextNode(" ciudad bolivar-bogota D.C")
+marcaProducto.appendChild(nodoMarcaProducto4)
 
 
 
