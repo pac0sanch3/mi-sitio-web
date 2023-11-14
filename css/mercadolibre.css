@@ -4,6 +4,7 @@
     box-sizing: border-box;
     border: none;
     font-family: sans-serif;
+    font-family: 'Poppins';
 }
 header{
     display: grid;
@@ -36,10 +37,11 @@ header{
 }
 .box-producto{
     width: 100%;
-    height: 170px;
+    padding: 25px 0;
     display: grid;
-    grid-template:"box-imagen box-info-producto" /
+    grid-template:"box-imagen box-info-producto" auto/
                     7fr         10fr ;
+    border: 1px solid rgb(200, 200, 200,.5);
 }
 .box-imagen{
     grid-area: box-imagen;
@@ -56,3 +58,37 @@ header{
 label{
     display: block;
 }
+.marcaproducto{
+    padding-top: 30px;
+}
+.marcaproducto4{
+    color: rgb(190, 190, 190);
+    font-size: 0.78em;
+}
+.precioProducto{
+    font-size: 1.2em;
+    display: block;
+    font-weight: 500;
+}
+.año-producto, .kilometraje, .ciudad{
+    font-size: .78em;
+    color: rgb(190, 190, 190);
+    display: inline;
+}
+
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
