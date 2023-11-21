@@ -16,18 +16,17 @@ let moto3= new Moto("Ducati"," Scramble","$38.000.000"," 2020 ","7.000km "," Usa
 let moto4= new Moto("Yamaha"," Mt09","$68.000.000"," 2022 ","12.000km "," Medellin-Antioquia","img/mt-09.jpg");
 
 let boxProductos= document.getElementById("boxProductos")
-let inputbusquedad=document.getElementById("busqueda").value
 
 window.addEventListener("keydown",(event)=>{
     let inputbusquedad=document.getElementById("busqueda").value
     if(event.key=="Enter"){
         boxProductos.innerHTML = "";
-        let inputbusquedadAux=inputbusquedad.toString()
-        if(inputbusquedadAux=="Ducati"){
+        let inputbusquedadAux=inputbusquedad.toLowerCase()
+        if(inputbusquedadAux=="ducati"){
             cargarMoto(moto1);
             cargarMoto(moto2);
             cargarMoto(moto3);
-        }else if(inputbusquedadAux=="Yamaha"){
+        }else if(inputbusquedadAux=="yamaha"){
             cargarMoto(moto4);
 
         }
