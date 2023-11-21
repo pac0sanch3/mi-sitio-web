@@ -10,22 +10,26 @@ class Moto{
     }
 }
 
-let moto1= new Moto("Ducaty"," Hypermotard","$76.000.000"," 2023 ","12.327km "," bolivar-bogota D.C","img/hypermotard.jpg");
-let moto2= new Moto("Ducaty"," Multistrada","$81.000.000"," 2020 ","21.000km "," suba-bogota D.C","img/ducaty.jpg");
-let moto3= new Moto("Ducaty"," Scramble","$38.000.000"," 2020 ","7.000km "," Usaquén-bogota D.C","img/ducaty2.jpg");
+let moto1= new Moto("Ducati"," Hypermotard","$76.000.000"," 2023 ","12.327km "," bolivar-bogota D.C","img/hypermotard.jpg");
+let moto2= new Moto("Ducati"," Multistrada","$81.000.000"," 2020 ","21.000km "," suba-bogota D.C","img/ducaty.jpg");
+let moto3= new Moto("Ducati"," Scramble","$38.000.000"," 2020 ","7.000km "," Usaquén-bogota D.C","img/Ducaty2.jpg");
 let moto4= new Moto("Yamaha"," Mt09","$68.000.000"," 2022 ","12.000km "," Medellin-Antioquia","img/mt-09.jpg");
 
 let boxProductos= document.getElementById("boxProductos")
 let inputbusquedad=document.getElementById("busqueda").value
 
 window.addEventListener("keydown",(event)=>{
+    let inputbusquedad=document.getElementById("busqueda").value
     if(event.key=="Enter"){
-        
+        boxProductos.innerHTML = "";
         let inputbusquedadAux=inputbusquedad.toString()
-        if(inputbusquedadAux.innerText=="Ducaty"){
-            cargarMoto(moto1)
-            cargarMoto(moto2)
-            cargarMoto(moto3)
+        if(inputbusquedadAux=="Ducati"){
+            cargarMoto(moto1);
+            cargarMoto(moto2);
+            cargarMoto(moto3);
+        }else if(inputbusquedadAux=="Yamaha"){
+            cargarMoto(moto4);
+
         }
 
       
