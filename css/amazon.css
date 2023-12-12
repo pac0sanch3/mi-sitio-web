@@ -23,18 +23,32 @@
     margin-left: 30px;
 }
 .box-calificacion-1 {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 30px;
     width: 200px;
     border-radius: 5px;
     height: 35px;
     border: 2px solid rgb(200, 200, 200, .8);
+    display: inline-block;
 }
 .porcentaje-calificacion-1 {
     height: 35px;
     background-color: gold;
-    width: 100px;
+    width: 0;
+    transition: all 1s;
+    border-radius: 3px;
+}
+.btnGraficar{
+    width: 400px;
+    height: 35px;
 }
 .box-calificaciones {
     display: flex;
+}
+.span-porcentaje{
+    position: relative;
+    font-family: sans-serif;
+    top: -15px;
+    left: 5px;
+    color: dodgerblue;
 }
