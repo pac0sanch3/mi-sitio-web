@@ -24,3 +24,103 @@ btngraficar.addEventListener("click",function(){
         boxEstrella5.setAttribute("class","fa-regular fa-star")
     }
 })
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion>=0.5 && calificacion <= 0.9){
+        boxEstrella1.setAttribute("class","fa-solid fa-star-half-stroke")
+        boxEstrella2.setAttribute("class","fa-regular fa-star")
+        boxEstrella3.setAttribute("class","fa-regular fa-star")
+        boxEstrella4.setAttribute("class","fa-regular fa-star")
+        boxEstrella5.setAttribute("class","fa-regular fa-star")
+    }
+})
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion==1){
+        boxEstrella1.setAttribute("class","fa-solid fa-star")
+        boxEstrella2.setAttribute("class","fa-regular fa-star")
+        boxEstrella3.setAttribute("class","fa-regular fa-star")
+        boxEstrella4.setAttribute("class","fa-regular fa-star")
+        boxEstrella5.setAttribute("class","fa-regular fa-star")
+    }
+})
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion>=1.1 && calificacion <= 1.9){
+        boxEstrella1.setAttribute("class","fa-solid fa-star")
+        boxEstrella2.setAttribute("class","fa-solid fa-star-half-stroke")
+        boxEstrella3.setAttribute("class","fa-regular fa-star")
+        boxEstrella4.setAttribute("class","fa-regular fa-star")
+        boxEstrella5.setAttribute("class","fa-regular fa-star")
+    }
+})
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion==2){
+        boxEstrella1.setAttribute("class","fa-solid fa-star")
+        boxEstrella2.setAttribute("class","fa-solid fa-star")
+        boxEstrella3.setAttribute("class","fa-regular fa-star")
+        boxEstrella4.setAttribute("class","fa-regular fa-star")
+        boxEstrella5.setAttribute("class","fa-regular fa-star")
+    }
+})
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion>=2.1 && calificacion <= 2.9){
+        boxEstrella1.setAttribute("class","fa-solid fa-star")
+        boxEstrella2.setAttribute("class","fa-solid fa-star")
+        boxEstrella3.setAttribute("class","fa-solid fa-star-half-stroke")
+        boxEstrella4.setAttribute("class","fa-regular fa-star")
+        boxEstrella5.setAttribute("class","fa-regular fa-star")
+    }
+})
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion==3){
+        boxEstrella1.setAttribute("class","fa-solid fa-star")
+        boxEstrella2.setAttribute("class","fa-solid fa-star")
+        boxEstrella3.setAttribute("class","fa-solid fa-star")
+        boxEstrella4.setAttribute("class","fa-regular fa-star")
+        boxEstrella5.setAttribute("class","fa-regular fa-star")
+    }
+})
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion>=3.1 && calificacion <= 3.9){
+        boxEstrella1.setAttribute("class","fa-solid fa-star")
+        boxEstrella2.setAttribute("class","fa-solid fa-star")
+        boxEstrella3.setAttribute("class","fa-solid fa-star")
+        boxEstrella4.setAttribute("class","fa-solid fa-star-half-stroke")
+        boxEstrella5.setAttribute("class","fa-regular fa-star")
+    }
+})
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion==4){
+        boxEstrella1.setAttribute("class","fa-solid fa-star")
+        boxEstrella2.setAttribute("class","fa-solid fa-star")
+        boxEstrella3.setAttribute("class","fa-solid fa-star")
+        boxEstrella4.setAttribute("class","fa-solid fa-star")
+        boxEstrella5.setAttribute("class","fa-regular fa-star")
+    }
+})
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion>=4.1 && calificacion <= 4.9){
+        boxEstrella1.setAttribute("class","fa-solid fa-star")
+        boxEstrella2.setAttribute("class","fa-solid fa-star")
+        boxEstrella3.setAttribute("class","fa-solid fa-star")
+        boxEstrella4.setAttribute("class","fa-solid fa-star")
+        boxEstrella5.setAttribute("class","fa-solid fa-star-half-stroke")
+    }
+})
+btngraficar.addEventListener("click",function(){
+    let calificacion = parceInt(inputbusqueda.value)
+    if(calificacion==5){
+        boxEstrella1.setAttribute("class","fa-solid fa-star")
+        boxEstrella2.setAttribute("class","fa-solid fa-star")
+        boxEstrella3.setAttribute("class","fa-solid fa-star")
+        boxEstrella4.setAttribute("class","fa-solid fa-star")
+        boxEstrella5.setAttribute("class","fa-solid fa-star")
+    }
+})
